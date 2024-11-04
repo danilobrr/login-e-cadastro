@@ -1,0 +1,69 @@
+* {box-sizing: border-box;}
+* {margin: 0px;}
+body {
+    background-color: #616161;
+}
+#paiLogin {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: #929292;
+    padding: 15px 0px;
+   
+}
+#filhoLogin {
+    padding: 0px 15px;
+}
+
+#paiCadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    
+}
+#filhoCadastro {
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #929292;
+}
+
+.formLog {
+    background-color: #ccc;
+    outline: none;
+    border: 1px solid #898989;
+    padding: 5px;
+    width: 250px;
+}
+
+.rotulo {
+    display: block;
+    margin: 10px;
+}
+.formCad {
+    background-color: #ccc;
+    outline: none;
+    border: 1px solid #898989;
+    padding: 5px;
+    width: 300px;
+}
+
+.logo {
+    margin-right: 50%;
+    font-size: 40px;
+    
+}
+.botton {
+    background-color: #ccc;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.link {
+    text-decoration: none;
+    color: black;
+}
+.link:hover {
+    text-decoration: underline;
+}

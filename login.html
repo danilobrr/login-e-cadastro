@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <title>Página inicial</title>
+        <link rel="stylesheet" href="styleLogin.css">
+        <meta charset="utf-8"/>
+</head>
+<body>
+    <div id="paiLogin">
+        <h1 class="logo">Entrar</h1>
+        <div id="filhoLogin">
+        
+            <form action="perfil.html" method="get" name="formLogin">
+            <label for="usuarioEmail">Nome de usuário ou email:</label>
+            <input type="text" id="usuarioEmail" class="formLog"/>
+            <label for="pass">Senha:</label>
+            <input type="password" id="pass" class="formLog"/>
+            <input type="submit" value="Entrar"/>
+        </form>
+        </div>
+    </div>
+
+    <div id="paiCadastro">
+        
+        <div id="filhoCadastro">
+            <h1>Cadastre-se</h1>
+        <form action="perfil.html" method="post">
+            <label class="rotulo">
+                Nome de usuário: <br/>
+                <input type="text" class="formCad">
+            </label>
+            <label class="rotulo">
+                Email: <br/>
+                <input type="email" class="formCad">
+            </label>
+            <label class="rotulo">
+                Confirmar email: <br/>
+                <input type="email" class="formCad">
+            </label>
+            <label class="rotulo">
+                Senha: <br>
+                <input type="password" class="formCad">
+            </label>
+            <label class="rotulo">
+                Confirmar senha: <br/>
+                <input type="password" class="formCad">
+            </label>
+            <label class="rotulo">
+                Data de nascimento: <br/>
+                <input type="date" class="formCad">
+            </label>
+            <label class="rotulo">
+                Sexo: <br/>
+            <select name="genero" id="sex" class="formCad">
+                <option value=""></option>
+                <option value="homemCis">Masculino</option>
+                <option value="mulherCis">Feminino</option>
+            </select>
+            </label>
+            <label class="rotulo">
+                <input type="checkbox">
+                Eu declaro que li e aceito os <a href="https/termosdeuso.com" class="link">termos de uso.</a>
+            </label>
+            <label class="rotulo">
+                <input type="submit" value="Cadastrar" class="botton">
+            </label>
+        </form>
+        </div>
+    </div>
+
+</body>
+</html>
